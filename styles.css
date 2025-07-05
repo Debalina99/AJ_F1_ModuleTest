@@ -324,12 +324,40 @@ button:hover {
 
 .third h1 {
     padding: 0;
-    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-bottom: 0;
     color: #342415;
     font-size: 56px;
     font-weight: 700;
     height: auto;
     letter-spacing: -0.03em;
+}
+.dots{
+    background-color:#342415; 
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+.underline{
+   border: none;
+   height: 3px;
+   background-color: #363c1d; 
+   width: 38%;
+   visibility: hidden;
+   position: relative;
+    bottom: 10px;
+    /* left: 0; */
+    right: 10px;
+    transform: translateX(-30px);
+    transition: all 0.5s ease;
+    pointer-events: none;
+    margin-left: 10%;
+}
+.third:hover .underline{
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+   visibility: visible;
 }
 
 .card-heading3, .card-heading4 {
@@ -337,7 +365,7 @@ button:hover {
 }
 
 .card-heading3 p, .card-heading4 p {
-    margin: 0px 0px 0px 0px;
+    margin: 12px 0px 0px 0px;
     font-size: 14px;
 }
 
