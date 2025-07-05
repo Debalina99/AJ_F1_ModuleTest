@@ -28,12 +28,12 @@ header {
     justify-content: center;
     border-radius: 32px;
     margin: 0px 3px 0px 0px;
-    width:100%;
+    width: 100%;
     max-width: calc(100% - 3px);
     flex-wrap: nowrap;
     height: 100%;
 
-    
+
 }
 
 header p {
@@ -48,6 +48,7 @@ header p {
     width: auto;
     max-width: 100%;
 }
+
 .left {
     display: flex;
     align-items: center;
@@ -191,7 +192,7 @@ button:hover {
 
 .city-image img {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     object-fit: cover;
     transition: transform 0.8s ease;
     will-change: transform;
@@ -216,6 +217,7 @@ button:hover {
     transition: all 0.5s ease;
     pointer-events: none;
 }
+
 .first:hover .arrow {
     opacity: 1;
     transform: translateX(0);
@@ -240,10 +242,12 @@ button:hover {
 .right-container {
     width: calc(67% - 10px);
 }
-.image-row{
+
+.image-row {
     display: flex;
     height: 250px;
 }
+
 .second .heading-1 {
     color: #342415;
     font-size: 18px;
@@ -277,9 +281,11 @@ button:hover {
     font-weight: 700;
     font-size: 2em;
 }
+
 .right button:last-child {
-        display: none;
-    }
+    display: none;
+}
+
 .woman-image {
     margin: 3%;
     padding: 0;
@@ -332,19 +338,21 @@ button:hover {
     height: auto;
     letter-spacing: -0.03em;
 }
-.dots{
-    background-color:#342415; 
+
+.dots {
+    background-color: #342415;
     height: 2em;
     width: 2em;
     border-radius: 50%;
 }
-.underline{
-   border: none;
-   height: 3px;
-   background-color: #363c1d; 
-   width: 38%;
-   visibility: hidden;
-   position: relative;
+
+.underline {
+    border: none;
+    height: 3px;
+    background-color: #363c1d;
+    width: 38%;
+    visibility: hidden;
+    position: relative;
     bottom: 10px;
     /* left: 0; */
     right: 10px;
@@ -353,18 +361,21 @@ button:hover {
     pointer-events: none;
     margin-left: 10%;
 }
-.third:hover .underline{
+
+.third:hover .underline {
     opacity: 1;
     transform: translateX(0);
     pointer-events: auto;
-   visibility: visible;
+    visibility: visible;
 }
 
-.card-heading3, .card-heading4 {
+.card-heading3,
+.card-heading4 {
     padding: 0 25px;
 }
 
-.card-heading3 p, .card-heading4 p {
+.card-heading3 p,
+.card-heading4 p {
     margin: 12px 0px 0px 0px;
     font-size: 14px;
 }
@@ -427,6 +438,7 @@ button:hover {
     padding: 1em;
 
 }
+
 .man-image {
     margin: 15px;
     padding: 0;
@@ -434,6 +446,7 @@ button:hover {
     border-radius: 40px;
     position: relative;
 }
+
 .man {
     border-radius: 40px;
     flex: none;
@@ -445,14 +458,16 @@ button:hover {
 .fourth:hover img {
     transform: scale(1.1);
 }
-.card-heading4 h2{
+
+.card-heading4 h2 {
     margin-top: 0;
-   letter-spacing: -0.04em;
+    letter-spacing: -0.04em;
     font-size: 2em;
     font-weight: 700;
     color: #342415;
 }
-.card-heading4 p{
+
+.card-heading4 p {
     color: #342415;
 }
 
@@ -461,5 +476,3 @@ button:hover {
     transform: translateX(0);
     pointer-events: auto;
 }
-
-

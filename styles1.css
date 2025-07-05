@@ -2,10 +2,12 @@
     body {
         margin: 10px;
     }
-.dots{
-    height: 1em;
-    width: 1em;
-}
+
+    .dots {
+        height: 1em;
+        width: 1em;
+    }
+
     .underline {
         width: 65%;
         margin-left: 20%;
@@ -60,10 +62,12 @@
     .container {
         flex-direction: column;
     }
-.dots{
-    height: 1em;
-    width: 1em;
-}
+
+    .dots {
+        height: 1em;
+        width: 1em;
+    }
+
     .underline {
         width: 68%;
         margin-left: 15%;
@@ -206,10 +210,12 @@
     .left {
         width: 65%;
     }
-.dots{
-    height: 2em;
-    width: 2em;
-}
+
+    .dots {
+        height: 2em;
+        width: 2em;
+    }
+
     .last-row {
         display: flex;
         flex-direction: column;
