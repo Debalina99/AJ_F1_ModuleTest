@@ -136,7 +136,7 @@ button:hover {
     flex: none;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 100%;
+    /* height: 100%; */
     justify-content: flex-end;
     margin: 0px 10px 0px 0px;
     overflow-x: hidden;
@@ -154,7 +154,7 @@ button:hover {
     flex-wrap: nowrap;
     height: auto;
     justify-content: flex-start;
-    padding: 30px;
+    padding: 20px;
 }
 
 .first .heading-1 {
@@ -181,7 +181,7 @@ button:hover {
 }
 
 .city-image {
-    /* height: 32em; */
+    height: 32em;
     margin: 15px;
     padding: 0;
     overflow: hidden;
@@ -191,7 +191,7 @@ button:hover {
 
 .city-image img {
     width: 100%;
-    height: 100%;
+    height: 100%; 
     object-fit: cover;
     transition: transform 0.8s ease;
     will-change: transform;
@@ -233,8 +233,8 @@ button:hover {
     flex-direction: column;
     flex-wrap: nowrap;
     height: auto;
-    margin: 0px 0px 0px 0px;
-    display: flex;
+    /* margin: 0px 0px 0px 0px;
+    display: flex; */
 }
 
 .right-container {
@@ -267,7 +267,7 @@ button:hover {
     flex-wrap: nowrap;
     height: auto;
     justify-content: flex-start;
-    padding: 30px;
+    padding: 0 30px;
     width: 50%;
 }
 
@@ -319,7 +319,7 @@ button:hover {
     background-color: #976C54;
     width: 50%;
     border-radius: 30px;
-    height: 450px;
+    height: auto;
 }
 
 .third h1 {
@@ -372,7 +372,7 @@ button:hover {
     background-color: #B5A38D;
     width: 50%;
     border-radius: 30px;
-    height: 450px;
+    height: auto;
 }
 
 .first-row .heading-1 {
