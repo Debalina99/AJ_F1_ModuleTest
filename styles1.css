@@ -26,36 +26,27 @@
     .third,
     .fourth,
     .right-container {
-        /* width: 100% !important; */
         height: auto;
     }
-
     .image-row {
         padding: 1% 0;
         height: auto;
     }
 
-    .city-image img {
-        height: 100%;
-    }
-
     .right button:last-child {
         display: none;
     }
-
     .city-image img {
-        height: 40em;
+        height: 38em;
+    
     }
-
     .left {
         width: 68%;
     }
-
     .city-image {
         height: auto;
         margin: 10px;
     }
-
 }
 
 @media screen and (max-width: 840px) {
@@ -86,9 +77,9 @@
         display: none;
     }
 
-    .city-image {
-        height: auto;
-        margin: 10px;
+    .city-image img{
+        height: 20em;
+        margin: 0;
     }
 
     .right button:last-child {
@@ -108,6 +99,9 @@
         justify-content: center;
         text-align: center;
     }
+    /* .first img{
+        height: 10%;
+    } */
 }
 
 /* Mobile Phones */
@@ -168,7 +162,7 @@
     .third,
     .right-container,
     .first {
-        height: 100%;
+        height: auto;
         width: 100%;
     }
 
